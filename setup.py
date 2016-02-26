@@ -24,8 +24,9 @@ packages = [
 ]
 
 
-with open('requirements.txt') as f:
-    required = f.read().splitlines()
+#with open('requirements.txt') as f:
+#    required = f.read().splitlines()
+required = []
 
 
 setup(
